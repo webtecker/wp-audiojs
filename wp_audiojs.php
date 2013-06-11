@@ -22,12 +22,12 @@ function wp_audiojs_handle($atts, $content="") {
 
 function wp_audiojs_scripts() {
 	//Javascript
-	wp_register_script('audiojs', plugins_url('/wp-audio.js/audio.min.js'));
+	wp_register_script('audiojs', plugins_url('/wp-audiojs/audio.min.js'));
 	wp_enqueue_script('audiojs');
-	wp_register_script('implement-audiojs', plugins_url('/wp-audio.js/implement.js'));
+	wp_register_script('implement-audiojs', plugins_url('/wp-audiojs/implement.js'));
 	wp_enqueue_script('implement-audiojs');
 	//CSS
-	wp_register_style('audiojs_style', plugins_url('/wp-audio.js/audiojs.css');
+	wp_register_style('audiojs_style', plugins_url('/wp-audiojs/audiojs.css');
 	wp_enqueue_style( 'audiojs_style');
 }
 
